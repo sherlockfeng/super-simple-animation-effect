@@ -1,0 +1,22 @@
+.container {
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+}
+
+.content div{
+    height: 100px;
+    background-color: aqua;   
+    width: 500px;
+
+}
+
+.anm {
+    transition: top 0.5s;
+}
